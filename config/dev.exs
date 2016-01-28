@@ -34,9 +34,6 @@ config :phoenix, :stacktrace_depth, 20
 
 # Configure your database
 config :noggenfogger, Noggenfogger.Repo,
-  adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
-  database: "noggenfogger_dev",
-  hostname: "localhost",
-  pool_size: 10
+  adapter: Sqlite.Ecto,
+  database: "noggenfogger.sqlite",
+  poolsize: 10
