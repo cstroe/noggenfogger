@@ -1,5 +1,17 @@
 # Noggenfogger
 
+## Important Dependencies
+
+To run this Phoenix app, you absolutely need `nodejs` >= 4.0 and `npm` >= 2.0.0.
+
+If you get a strange error about `preset "es2015"`, type this:
+
+```
+npm install --save-dev babel-preset-es2015
+```
+
+## Running
+
 To start your Phoenix app:
 
   * Install dependencies with `mix deps.get`
